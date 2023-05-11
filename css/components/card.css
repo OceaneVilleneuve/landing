@@ -1,0 +1,43 @@
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 5em;
+}
+
+.card {
+  background-color: black;
+  width: 230px;
+  height: 300px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+}
+
+.card:hover {
+  box-shadow: rgba(216, 189, 227, 0.917) 0px 7px 29px 0px;
+
+}
+.cards .card p {
+  font-family: 'Alata', sans-serif;
+}
+
+.cards .card h3 {
+  font-family: 'Instrument Serif', serif;;
+  color: white;
+  text-shadow: rgb(170, 141, 167) 1px 0px 10px;
+}
+
+.cards .card img {
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.cards .card img:hover {
+  transition: 0.3s;
+  box-shadow: rgba(216, 189, 227, 0.917) 0px 7px 29px 0px;
+}

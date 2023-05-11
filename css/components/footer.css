@@ -1,0 +1,13 @@
+.footer {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/landing/images/189427.jpg);
+}
+
+.footer i {
+  color:white;
+  font-size: 50px;
+  margin:10px;
+}

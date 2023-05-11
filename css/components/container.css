@@ -1,0 +1,37 @@
+.banner .container {
+  color: white;
+  flex-direction: column;
+}
+.banner .container h1 {
+  font-family: 'Instrument Serif', serif;;
+  text-shadow: rgb(170, 141, 167) 1px 0px 10px;
+}
+
+.banner .container p{
+  padding-bottom: 15px;
+  text-align: center;
+  font-family: 'Alata', sans-serif;
+}
+.banner .container a {
+  color: white;
+  border-radius: 20px;
+  background-color: #3e1f47;
+  padding: 15px;
+  margin-left: 230px ;
+  transition: 0.9s;
+  font-family: 'Alata', sans-serif;
+
+}
+
+.banner .container a:hover {
+  background-color: black;
+  transition: 0.9s;
+  box-shadow: rgba(216, 189, 227, 0.917) 0px 7px 29px 0px;
+}
+
+.container h2 {
+  color:white;
+  text-align: center;
+  text-shadow: rgb(219, 204, 217) 1px 0px 10px;
+  font-family: 'Instrument Serif', serif;;
+}
